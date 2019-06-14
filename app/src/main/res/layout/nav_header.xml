@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nav_drawer_header_bg"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageView
+        android:id="@+id/drawer_app_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/drawer_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drawer_app_logo"
+        android:paddingTop="8dp"
+        android:text="@string/title_nav_header"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <TextView
+        android:id="@+id/drawer_app_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drawer_app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:text="@string/title_nav_version" />
+
+    <TextView
+        android:id="@+id/drawer_app_dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/drawer_app_version"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:text="@string/title_nav_developer" />
+
+</RelativeLayout>

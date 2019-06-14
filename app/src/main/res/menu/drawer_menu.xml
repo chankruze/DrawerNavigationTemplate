@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_posts"
+            android:icon="@drawable/ic_home"
+            android:title="@string/title_nav_posts" />
+
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_category"
+            android:title="@string/title_nav_categories" />
+
+        <item
+            android:id="@+id/nav_tags"
+            android:icon="@drawable/ic_hash_tags"
+            android:title="@string/title_nav_tags" />
+    </group>
+
+    <item android:title="@string/title_nav_communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/title_nav_share" />
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_email"
+                android:title="@string/title_nav_contact" />
+
+            <item
+                android:id="@+id/nav_author"
+                android:icon="@drawable/ic_author"
+                android:title="@string/title_nav_author" />
+        </menu>
+    </item>
+
+    <item android:title="@string/title_nav_sponsor">
+        <menu>
+            <item
+                android:id="@+id/nav_donate"
+                android:icon="@drawable/ic_gift"
+                android:title="@string/title_nav_donate" />
+        </menu>
+    </item>
+</menu>

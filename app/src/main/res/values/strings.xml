@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Drawer Navigation Demo</string>
+
+    <!-- Nav Menu Titles -->
+    <string name="title_nav_header">@string/app_name</string>
+    <string name="title_nav_version">1.0-alpha</string>
+    <string name="title_nav_developer">chankruze</string>
+    <string name="title_nav_posts">All Latest Posts</string>
+    <string name="title_nav_categories">Group By Categories</string>
+    <string name="title_nav_tags">Group By Tags</string>
+    <string name="title_nav_communication">Communication</string>
+    <string name="title_nav_sponsor">Sponsor</string>
+    <string name="title_nav_donate">Support Development</string>
+    <string name="title_nav_share">Share With Others</string>
+    <string name="title_nav_contact">Have A Chat With Me</string>
+    <string name="title_nav_author">Become An Author</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+</resources>
